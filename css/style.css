@@ -26,6 +26,34 @@ main h3 {
   padding: 0 1rem 2rem 1rem;
 }
 
+#timeline {
+  padding: 40px 20px;
+  width: 800px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#timeline h3 {
+  font-size: 1.2rem;
+}
+
+#timeline ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  color: black;
+  padding: 2rem 0;
+  font-weight: 600;
+}
+
+a {
+  color: blue;
+}
+
 #img-div {
   width: 100%;
   padding: 40px;
