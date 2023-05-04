@@ -35,20 +35,22 @@ main h3 {
 
 #timeline h3 {
   font-size: 1.2rem;
+  margin-bottom: 1rem;
 }
 
 #timeline ul {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding: 0 10px;
 }
 
 p {
   font-size: 1.2rem;
   color: black;
-  padding: 2rem 0;
   font-weight: 600;
   text-align: center;
+  padding: 2rem 10px;
 }
 
 a {
@@ -71,4 +73,14 @@ a {
   width: 800px;
   height: auto;
   object-fit: cover;
+}
+
+@media screen and (max-width: 400px) {
+  p {
+    font-size: 1rem;
+  }
+
+  #img-div {
+    padding: 10px;
+  }
 }
